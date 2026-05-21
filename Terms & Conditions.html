@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions - Your Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* मुख्य कंटेनर */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        /* हेडर सेक्शन */
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            animation: fadeInDown 0.8s ease;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        /* कंटेंट एरिया */
+        .content {
+            padding: 40px;
+        }
+
+        /* हर सेक्शन का स्टाइल */
+        .section {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 25px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            color: #667eea;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            border-left: 4px solid #764ba2;
+            padding-left: 15px;
+        }
+
+        .section p, .section li {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        .section ul {
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+
+        .section li {
+            margin-bottom: 8px;
+        }
+
+        /* हाइलाइट बॉक्स */
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border-left: 4px solid #764ba2;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        /* एनिमेशन */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .section {
+            animation: fadeInUp 0.6s ease forwards;
+            opacity: 0;
+        }
+
+        .section:nth-child(1) { animation-delay: 0.1s; }
+        .section:nth-child(2) { animation-delay: 0.2s; }
+        .section:nth-child(3) { animation-delay: 0.3s; }
+        .section:nth-child(4) { animation-delay: 0.4s; }
+        .section:nth-child(5) { animation-delay: 0.5s; }
+        .section:nth-child(6) { animation-delay: 0.6s; }
+        .section:nth-child(7) { animation-delay: 0.7s; }
+
+        /* फुटर */
+        .footer {
+            background: #2d3748;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* बटन स्टाइल */
+        .back-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: transform 0.3s;
+        }
+
+        .back-btn:hover {
+            transform: scale(1.05);
+        }
+
+        /* रिस्पॉन्सिव */
+        @media (max-width: 768px) {
+            .content {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .section h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- हेडर -->
+        <div class="header">
+            <h1>📜 Terms & Conditions</h1>
+            <p>Please read these terms carefully before using our website</p>
+            <div class="highlight-box" style="background: rgba(255,255,255,0.2); margin-top: 20px;">
+                <strong>📅 Effective Date:</strong> January 1, 2025<br>
+                <strong>🔄 Last Updated:</strong> May 21, 2026
+            </div>
+        </div>
+
+        <!-- मुख्य कंटेंट -->
+        <div class="content">
+            <div class="section">
+                <h2>1. Acceptance of Terms 📌</h2>
+                <p>By accessing or using <strong>YourWebsite.com</strong> ("we", "our", "us"), you agree to be bound by these Terms & Conditions. If you do not agree with any part of these terms, please do not use our website.</p>
+            </div>
+
+            <div class="section">
+                <h2>2. Use of Website 💻</h2>
+                <p>You agree to use this website only for lawful purposes. You must not:</p>
+                <ul>
+                    <li>❌ Violate any applicable laws or regulations</li>
+                    <li>❌ Infringe upon intellectual property rights</li>
+                    <li>❌ Transmit malware, viruses, or harmful code</li>
+                    <li>❌ Attempt unauthorized access to our systems</li>
+                    <li>❌ Harass, abuse, or harm others</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>3. Intellectual Property ©️</h2>
+                <p>All content, logos, designs, graphics, and code on this website are owned by <strong>Your Company Name</strong> or licensed to us. You may not copy, distribute, modify, or reproduce any part without written permission.</p>
+                <div class="highlight-box">
+                    💡 <strong>Note:</strong> Unauthorized use of our content may result in legal action.
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>4. User Accounts 👤</h2>
+                <p>If you create an account on our website:</p>
+                <ul>
+                    <li>✅ You are responsible for maintaining account security</li>
+                    <li>✅ You are responsible for all activities under your account</li>
+                    <li>✅ You must provide accurate and complete information</li>
+                    <li>✅ Notify us immediately of any security breach</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>5. Privacy Policy 🔒</h2>
+                <p>Your privacy is important to us. Please review our <a href="#" style="color: #667eea;">Privacy Policy</a> to understand how we collect, use, and protect your personal information.</p>
+            </div>
+
+            <div class="section">
+                <h2>6. Third-Party Links 🔗</h2>
+                <p>Our website may contain links to third-party websites. We are not responsible for the content, privacy policies, or practices of these external sites. Access them at your own risk.</p>
+            </div>
+
+            <div class="section">
+                <h2>7. Limitation of Liability ⚠️</h2>
+                <p>To the maximum extent permitted by law, <strong>Your Company Name</strong> shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of this website.</p>
+            </div>
+
+            <div class="section">
+                <h2>8. Termination 🚫</h2>
+                <p>We reserve the right to suspend or terminate your access to our website at our sole discretion, without notice, for violation of these Terms & Conditions or any unlawful activity.</p>
+            </div>
+
+            <div class="section">
+                <h2>9. Governing Law ⚖️</h2>
+                <p>These terms are governed by and construed in accordance with the laws of <strong>India / Your Country</strong>. Any disputes arising from these terms shall be resolved in the courts of <strong>Your City, Your Country</strong>.</p>
+            </div>
+
+            <div class="section">
+                <h2>10. Changes to Terms 📝</h2>
+                <p>We may update these Terms & Conditions from time to time. We will notify you of any changes by posting the new terms on this page. Continued use of the website constitutes acceptance of the revised terms.</p>
+            </div>
+
+            <div class="section">
+                <h2>11. Contact Us 📧</h2>
+                <p>If you have any questions, concerns, or suggestions about these Terms & Conditions, please contact us:</p>
+                <ul>
+                    <li>📧 Email: <a href="mailto:support@yourwebsite.com" style="color: #667eea;">support@yourwebsite.com</a></li>
+                    <li>📞 Phone: +91 XXXXX XXXXX</li>
+                    <li>📍 Address: Your Office Address, City, Country</li>
+                </ul>
+            </div>
+
+            <!-- बैक टू होम बटन -->
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="#" class="back-btn">🏠 Back to Homepage</a>
+            </div>
+        </div>
+
+        <!-- फुटर -->
+        <div class="footer">
+            <p>&copy; 2025-2026 YourWebsite.com. All rights reserved.</p>
+            <p style="margin-top: 10px;">
+                <a href="#">Privacy Policy</a> | 
+                <a href="#">Terms & Conditions</a> | 
+                <a href="#">Contact Us</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        /* Privacy Policy Container */
+        .privacy-container {
+            max-width: 1300px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            animation: fadeIn 0.6s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Header */
+        .privacy-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px 30px;
+            text-align: center;
+        }
+
+        .privacy-header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+            word-break: break-word;
+        }
+
+        .privacy-header p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        .effective-date {
+            background: rgba(255,255,255,0.2);
+            display: inline-block;
+            padding: 8px 20px;
+            border-radius: 50px;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Main Content */
+        .privacy-content {
+            padding: 40px;
+        }
+
+        /* Grid Layout */
+        .privacy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        /* Cards */
+        .privacy-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            border: 1px solid #e9ecef;
+        }
+
+        .privacy-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            background: white;
+            border-color: #667eea;
+        }
+
+        .privacy-card h3 {
+            color: #667eea;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            border-left: 4px solid #764ba2;
+            padding-left: 15px;
+        }
+
+        .privacy-card p {
+            color: #555;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+
+        .privacy-card ul {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        .privacy-card ul li {
+            color: #555;
+            line-height: 1.7;
+            margin-bottom: 8px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .privacy-card ul li::before {
+            content: "✓";
+            color: #764ba2;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        /* Full Width Cards */
+        .full-width {
+            grid-column: 1 / -1;
+        }
+
+        /* Footer Section */
+        .privacy-footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .agree-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 14px 40px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-bottom: 15px;
+        }
+
+        .agree-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .privacy-footer p {
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        /* Contact Info */
+        .contact-info {
+            background: linear-gradient(135deg, #667eea10, #764ba210);
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 15px;
+        }
+
+        .contact-info p {
+            margin: 8px 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 15px;
+            }
+            
+            .privacy-header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .privacy-content {
+                padding: 25px;
+            }
+            
+            .privacy-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .privacy-card h3 {
+                font-size: 1.2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .privacy-header {
+                padding: 30px 20px;
+            }
+            
+            .privacy-header h1 {
+                font-size: 1.5rem;
+            }
+            
+            .privacy-content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="privacy-container">
+    <!-- Header -->
+    <div class="privacy-header">
+        <h1>🔒 Privacy Policy</h1>
+        <p>Your privacy matters to us. We are committed to protecting your personal information.</p>
+        <div class="effective-date">
+            📅 Effective Date: May 21, 2026
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="privacy-content">
+        <div class="privacy-grid">
+            <!-- Card 1 -->
+            <div class="privacy-card">
+                <h3>📌 Information We Collect</h3>
+                <p>We collect information to provide better services:</p>
+                <ul>
+                    <li><strong>Personal Info:</strong> Name, Email, Phone Number</li>
+                    <li><strong>Usage Data:</strong> IP Address, Browser Type</li>
+                    <li><strong>Cookies:</strong> For better experience</li>
+                </ul>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="privacy-card">
+                <h3>⚙️ How We Use Data</h3>
+                <p>Your information helps us to:</p>
+                <ul>
+                    <li>Provide and maintain our services</li>
+                    <li>Improve user experience</li>
+                    <li>Respond to your inquiries</li>
+                    <li>Send important updates</li>
+                </ul>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="privacy-card">
+                <h3>🍪 Cookies Policy</h3>
+                <p>We use cookies to enhance your browsing experience. You can control cookies through your browser settings. Third-party services may also use cookies for analytics.</p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="privacy-card">
+                <h3>🛡️ Data Security</h3>
+                <p>We implement industry-standard security measures to protect your data. However, no internet transmission is 100% secure. We continuously update our security practices.</p>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="privacy-card">
+                <h3>👶 Children's Privacy</h3>
+                <p>Our services are not intended for children under 13. We do not knowingly collect personal information from children. If you believe we have, please contact us.</p>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="privacy-card">
+                <h3>📝 Your Rights</h3>
+                <ul>
+                    <li>Access your personal data</li>
+                    <li>Request correction or deletion</li>
+                    <li>Opt-out of marketing</li>
+                    <li>Withdraw consent anytime</li>
+                </ul>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="privacy-card">
+                <h3>🔗 Third-Party Links</h3>
+                <p>Our website may contain links to external sites. We are not responsible for their privacy practices. Please review their policies before sharing information.</p>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="privacy-card">
+                <h3>📅 Policy Updates</h3>
+                <p>We may update this Privacy Policy periodically. Changes will be posted on this page with an updated effective date. Continued use means acceptance.</p>
+            </div>
+        </div>
+
+        <!-- Contact Section Full Width -->
+        <div class="privacy-card" style="margin-top: 10px;">
+            <h3>📞 Contact Us</h3>
+            <p>If you have any questions about this Privacy Policy, please reach out to us:</p>
+            <div class="contact-info">
+                <p>📧 <strong>Email:</strong> privacy@yourwebsite.com</p>
+                <p>📞 <strong>Phone:</strong> +91 XXXXX XXXXX</p>
+                <p>📍 <strong>Address:</strong> Your City, Your Country</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="privacy-footer">
+        <button class="agree-btn" onclick="alert('Thank you! You have accepted the Privacy Policy.')">
+            ✅ I Agree to Privacy Policy
+        </button>
+        <p>By using our website, you consent to our Privacy Policy.</p>
+        <p style="margin-top: 10px; font-size: 0.8rem;">
+            © 2026 YourWebsite. All rights reserved.
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
